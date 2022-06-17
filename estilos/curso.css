@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans+Condensed:wght@300&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+/* topo da pagina comeca aqui */
+#logo-dindin{
+    margin: 15px 60px;
+}
+.container-superior{
+
+    background: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-topo{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-itens-topo{
+
+    
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+    
+}
+
+.menu-itens-topo a{
+    padding: 0px;
+    color: white;
+    text-decoration: none;    
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+
+
+
+.container-rodape{
+
+    background: #009688;
+    margin-top: 0px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu-rodape * {
+
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.botoes-rodape ul li{
+
+    list-style: none;
+    color: white;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.botoes-rodape a{
+    color: white;
+    border: 2px solid white;
+    padding: 7px 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 62px;
+
+}
+#bf{
+    padding: 7px 55px;
+
+}
+
+.topo-pagina {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 93px;
+}
+
+.texto{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.topo-pagina h1{
+    width: 461px;
+    padding: 0px;
+    height: 150px;
+    color: #FF4081;
+    font-weight: bold;
+    font-size: 55px;
+    margin: 0px;
+}
+
+.topo-pagina p{
+    padding: 0px;
+    margin: 0px;
+    width: 461px;
+    height: 186px;
+}
+
+/* fim do topo da pagina */
+
+/* inicio do conteudo e videos */
+
+.container-conteudo{
+
+    
+    background: #F7F7F7;
+    height: 400px;
+    
+    
+}
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+     
+    
+}
+
+.steve{
+
+    
+    margin-top: 60px;
+}
+
+.texto-steve{
+
+
+    
+    margin-top: 30px;
+    width: 501px;
+    height: 195px;
+}
+
+.texto-steve h1{
+
+    
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.border{
+
+    margin-top: 50px;
+    border: 2px solid #C4C4C4;
+    width: 1244px;
+    margin-left: 50px;
+
+}
+
+
+@media only screen and (max-width:480px) {
+
+ .steve iframe {
+
+    width: 200px;
+    height: 150px;
+     
+ }
+
+ #vi{
+
+    margin-top: 20px;
+ }
+
+ .texto-steve h1{
+
+    font-size: 15px;
+ }
+
+ .texto-steve p{
+
+    font-size: 13px;
+    width: 430px;
+ }
+    
+}
